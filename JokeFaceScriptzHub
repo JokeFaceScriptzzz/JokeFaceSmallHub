@@ -1,0 +1,76 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("JokeFace Small Hub", "Ocean")
+
+--PetsimulatorX
+local PetsimulatorX = Window:NewTab("PetSimX!")
+local PetsimulatorXSection = PetsimulatorX:NewSection("PetSimX Hacks!")
+
+
+PetsimulatorXSection:NewButton("TradeScam", "Scams People", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JokeFaceScriptzzz/TradeScamV1.1/main/TradeScam%20V1.1", true))()
+end)
+
+
+PetsimulatorXSection:NewButton("Dupe", "Dupe Pets(Bank Needed)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JokeFaceScriptzzz/TradeScamV1.1/main/TradeScam%20V1.1", true))()
+end)
+
+
+PetsimulatorXSection:NewButton("Visual Script", "Changes What pets look like", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/Mori-Visual/main/MoriVisual", true))()
+end)
+
+
+PetsimulatorXSection:NewLabel("Key For Visual Script Is Moriscripts")
+
+
+--Arsenal
+local Arsenal = Window:NewTab("Arsenal!")
+local ArsenalSection = Arsenal:NewSection("Arsenal Hacks")
+
+
+ArsenalSection:NewButton("Thunder Client", "Many Features", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DuhwahScripts/ArsenalBoltsHub/main/source"))()
+end)
+
+
+ArsenalSection:NewButton("Other OP Arsenal Script", "Many Features", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+end)
+
+--BedWars
+local BedWars = Window:NewTab("Bedwars!")
+local BedWarsSection = BedWars:NewSection("Bedwars OP Script")
+
+
+BedWarsSection:NewButton("Vape V4", "KillAura,Esp,Aimbot,ETC", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+
+--BreakingPoint
+local BreakingPoint = Window:NewTab("BreakingPoint!")
+local BreakingPointSection = BreakingPoint:NewSection("BreakingPoint Scripts")
+
+
+BreakingPointSection:NewButton("Owtlaws HUB", "KillAura,Esp,Aimbot,ETC", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MostafaXc00dy/MostafaXc00dy/main/Outlaws%20Hub/Breaking%20Point%20V7.lua"))()
+end)
+
+
+BreakingPointSection:NewButton("H4R7N Script", "USE RAGE MODE ITS SOOOOOOOOO GOOD!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack%20v1.2.lua"))()
+end)
+
+
+--Jailbreak
+local Jailbreak = Window:NewTab("Jailbreak!")
+local JailbreakSection = Jailbreak:NewSection("Jailbreak Scripts")
+
+
+JailbreakSection:NewButton("ProjectAuto", "Auto Rob Script", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6e7c79988d737f1c434905eda2a028b.lua"))()
+end)
+
+
+JailbreakSection:NewLabel("AutoArrest And AutoRob!")
