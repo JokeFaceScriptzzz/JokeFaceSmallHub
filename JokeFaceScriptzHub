@@ -53,8 +53,8 @@ local BreakingPoint = Window:NewTab("BreakingPoint!")
 local BreakingPointSection = BreakingPoint:NewSection("BreakingPoint Scripts")
 
 
-BreakingPointSection:NewButton("Owtlaws HUB", "KillAura,Esp,Aimbot,ETC", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MostafaXc00dy/MostafaXc00dy/main/Outlaws%20Hub/Breaking%20Point%20V7.lua"))()
+BreakingPointSection:NewButton("Busters", "KillAura,Esp,Aimbot,ETC", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax",true))();
 end)
 
 
@@ -73,4 +73,4 @@ JailbreakSection:NewButton("ProjectAuto", "Auto Rob Script", function()
 end)
 
 
-JailbreakSection:NewLabel("AutoArrest And AutoRob!")
+JailbreakSection:NewLabel("AutoArrest")
